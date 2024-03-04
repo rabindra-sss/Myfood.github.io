@@ -12,7 +12,7 @@ export default function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    let response = await fetch("http://localhost:8080/api/v1/auth/login", {
+    let response = await fetch("https://cfood-food-delivery-app.onrender.com/api/v1/auth/login", {
       method: "POST",
       headers: {
         'Content-Type': 'application/json'

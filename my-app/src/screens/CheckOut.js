@@ -22,7 +22,7 @@ export default function CheckOut() {
                 })
             )
         
-        let response = await fetch("http://localhost:8080/api/v1/order/create-order", {
+        let response = await fetch("https://cfood-food-delivery-app.onrender.com/api/v1/order/create-order", {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',

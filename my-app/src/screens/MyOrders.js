@@ -16,7 +16,7 @@ export default function MyOrders() {
         
         const loadData = async () => {
 
-            let response = await fetch("http://localhost:8080/api/v1/order/get-order", {
+            let response = await fetch("https://cfood-food-delivery-app.onrender.com/api/v1/order/get-order", {
                 method: "GET",
                 headers: {
                     'Content-Type': 'application/json',

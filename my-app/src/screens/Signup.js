@@ -8,7 +8,7 @@ export default function Signup() {
     const handleSubmit = async (e)=>{
         e.preventDefault();
 
-        let response = await fetch("http://localhost:8080/api/v1/auth/register", {
+        let response = await fetch("https://cfood-food-delivery-app.onrender.com/api/v1/auth/register", {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'
